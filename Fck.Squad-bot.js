@@ -337,5 +337,5 @@ client.on(`messageCreate`,async (msg)=>{
         };
     };
 });
-KeepAlive();
+keepAlive();
 client.login(bot_token);
