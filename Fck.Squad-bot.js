@@ -1,7 +1,7 @@
 const { Client, Events, ComponentType, ReactionEmoji, GuildEmoji, WebhookClient, PermissionsBitField, GatewayIntentBits, EmbedBuilder, ChannelType, ActionRowBuilder, StringSelectMenuBuilder, StringSelectMenuOptionBuilder, ActivityType, PermissionOverwrites, PermissionFlagsBits, Embed, IntentsBitField} = require('discord.js');
 const client = new Client({intents: [103423]});
 const fetch = require('node-fetch');
-const bot_token = "MTM5MzQxMDAzMDc0NDg5OTY5NA.GH65GB.pwwMYXBt1aJg-zoH6S4nXe6CUyaSFJ3SSPz0as"; // Introducir el token del bot
+const bot_token = process.env.TOKEN; // Introducir el token del bot
 const prefix = "."; // Prefijo del bot
 const names_channels = [" ̷ ̶f̶u̶c̶k̶e̶d̶b̶y̶f̶c̶k̶s̶q̶u̶a̶d̶", " ̷ ̶ ̶d̶o̶m̶a̶d̶o̶s̶p̶o̶r̶f̶c̶k̶s̶q̶u̶a̶d̶d̶", " ̶f̶u̶c̶k̶e̶d̶b̶y̶f̶c̶k̶s̶q̶u̶a̶d̶", " ̷ ̶ ̶d̶o̶m̶a̶d̶o̶s̶p̶o̶r̶f̶c̶k̶s̶q̶u̶a̶d̶"];
 const userid_vip = ["tu ID de Discord xdxd", "1189795248826744958"];
