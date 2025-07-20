@@ -336,4 +336,4 @@ client.on(`messageCreate`,async (msg)=>{
         };
     };
 });
-client.login("MTM5MzQxMDAzMDc0NDg5OTY5NA.GH65GB.pwwMYXBt1aJg-zoH6S4nXe6CUyaSFJ3SSPz0as");
+client.login(bot_token);
