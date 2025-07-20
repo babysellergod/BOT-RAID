@@ -1,0 +1,15 @@
+{
+  "name": "/FckSquad",
+  "version": "1.0.0",
+  "description": "dolce bot raid XD by ZenXTeam, recuerda que no es el bot oficial, es una réplica",
+  "main": "dolce-bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FckSquad",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "node-fetch": "^2.6.7"
+  }
+}
