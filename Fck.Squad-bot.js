@@ -1,3 +1,4 @@
+const keepAlive = require('./keep_alive');
 const { Client, Events, ComponentType, ReactionEmoji, GuildEmoji, WebhookClient, PermissionsBitField, GatewayIntentBits, EmbedBuilder, ChannelType, ActionRowBuilder, StringSelectMenuBuilder, StringSelectMenuOptionBuilder, ActivityType, PermissionOverwrites, PermissionFlagsBits, Embed, IntentsBitField} = require('discord.js');
 const client = new Client({intents: [103423]});
 const fetch = require('node-fetch');
@@ -336,4 +337,5 @@ client.on(`messageCreate`,async (msg)=>{
         };
     };
 });
+KeepAlive();
 client.login(bot_token);
